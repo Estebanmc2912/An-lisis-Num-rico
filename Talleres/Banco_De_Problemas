@@ -1,0 +1,40 @@
+Solución Banco de problemas:
+Esteban Moreno Castillo & Pablo Veintemilla
+
+Problema: Suponga que un dispositivo solo puede almacenar únicamente los cuatro primeros
+dígitos decimales de cada número real, y trunca los restantes (esto es redondeo inferior).
+Calcule el error de redondeo si se quiere almacenar el número 536.78.
+
+Solución: 536.78 - 536.7 = 0.08
+
+Problema: Implemente en cualquier lenguaje el siguiente algoritmo que sirve para calcular la
+raíz cuadrada. Aplíquelo para evaluar la raíz cuadrada de 7, analice su precisión, como podría
+evaluar la convergencia y validez del algoritmo.
+
+Solución:
+
+ * Dato inicial: 12
+ * Error aceptado: 0.1e-4 
+ * Número de iteraciones: 4
+ * Resultado algoritmo:3.46410
+
+
+Problema: Utilizando el teorema de Taylor hallar la aproximación de 0.5e con cinco
+cifras significativas.
+
+Solución: e^0+e^0(0.5-0)+((e^0)/2)(0.5-0)^2+((e^0)/6)(0.5-0)^3 = 1,6458333333
+
+Problema: Calcule el tamaño del error dado por las operaciones aritméticas, para la solución del siguiente problema
+
+Solución: 
+
+	* error relativo =  (0.1/4)+(0.1/5)  = 0.045
+	* error absoluto =  4*0.1+5*0.1  =  0.9
+	* error porcentual = (0.9/5)*100 = 18%
+
+Problema: Evaluar el valor de un polinomio es una tarea que involucra para la maquina realizar un número de operaciones la cual debe ser mínimas. Como se puede
+evaluar el siguiente polinomio - 2x^4-3x^2+3x-4 - con el número mínimo de multiplicaciones 
+
+Solución: 
+
+	* Resultado de la factorización: (x(x(x(2x)-3)+3)-4) 
