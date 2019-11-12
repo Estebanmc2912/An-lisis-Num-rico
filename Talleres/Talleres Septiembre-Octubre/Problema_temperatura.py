@@ -1,7 +1,7 @@
------------------------------------------------
-Taller problema interpolación temperatura 
-Esteban Moreno Castillo
------------------------------------------------
+#-----------------------------------------------
+#Taller problema interpolación temperatura 
+#Esteban Moreno Castillo
+#-----------------------------------------------
 from scipy.interpolate import lagrange
 import numpy as np
 import matplotlib.pyplot as plt 
