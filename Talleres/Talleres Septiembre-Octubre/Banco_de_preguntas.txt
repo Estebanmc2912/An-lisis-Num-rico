@@ -1,0 +1,15 @@
+
+#-----------------------------------------------
+#Banco de preguntas sobre Bezier 
+#Esteban Moreno Castillo
+#-----------------------------------------------
+
+1. ¿Qué diferencia hay entre una curva de bezier y un spline cúbico?
+Rta/. Un spline es un conjunto de curvas de bezier, El spline cúbico (k=3) es el spline más empleado, 
+debido a que proporciona un excelente ajuste a los puntos tabulados y su cálculo no es excesivamente complejo.
+
+2. ¿En qué situaciones recomienda utilizar curva de Bezier a cambio de splines, Lagrange, Hermite, Newton?
+Rta/. Cuando la curva no es compleja (hablando del algoritmo y/o función inicial) y puede representarse con la opción deun grado menor a 5.
+
+3. ¿Qué papel cumplen los puntos de control?
+Rta/. Definen el inicio, el final y la forma final de la curva, así como el grado de uso.
