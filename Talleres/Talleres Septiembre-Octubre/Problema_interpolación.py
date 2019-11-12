@@ -1,7 +1,7 @@
------------------------------------------
-Taller Interpolación 
-Esteban Moreno Castillo
------------------------------------------
+#-----------------------------------------
+#Taller Interpolación 
+#Esteban Moreno Castillo
+#-----------------------------------------
 
 from scipy.interpolate import lagrange
 import numpy as np
