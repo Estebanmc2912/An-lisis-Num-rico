@@ -1,7 +1,7 @@
------------------------------------------------
-Taller resolver sistemas de ecuaciones lineales
-Esteban Moreno Castillo
------------------------------------------------
+#-----------------------------------------------
+#Taller resolver sistemas de ecuaciones lineales
+#Esteban Moreno Castillo
+#-----------------------------------------------
 import numpy as np
 
 A = np.array([[1,10,100], [1,12,144], [1,14,196]])
